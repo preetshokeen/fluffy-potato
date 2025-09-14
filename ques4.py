@@ -1,2 +1,6 @@
-my_string = input("enter a string;")
-print("reversed string:", my_string[: :-1])
+num = int(input("enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even")
+else:
+    print(f"{num} is odd")
+    

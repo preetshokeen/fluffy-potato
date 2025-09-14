@@ -1,6 +1,5 @@
-my_string =input("enter a string: ")
-if 'a' in my_string or 'A' in my_string:
-    print("the string contains the letter 'a'.")
-else:
-    print("the string does not contain the letter 'a'.")
-    
+num = float(input("enter a number: "))
+square = num ** 2
+cube = num ** 3
+print(f"square of {num}: {square}")
+print(f"cube of {num}: {cube}")

@@ -1,6 +1,4 @@
-my_string = input("enter a string:")
-if my_string and my_string[0] == my_string[-1]:
-    print("match")
-else:
-    print("no match")
-    
+def count_characters(s):
+    return len(s)
+string = input("enter a string: ")
+print("number of characters:", count_characters(string))

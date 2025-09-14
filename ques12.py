@@ -1,6 +1,10 @@
-sentence = input("enter a sentence : ")
-mid_point = len(sentence) // 2
-first_half = sentence[:mid_point]
-second_half = sentence[mid_point :]
-print("first half:", first_half)
-print("second half:", second_half)
+def reverse_number(n):
+    reversed_num = 0
+    while n > 0:
+        digit = n % 10
+        reversed_num = reversed_num * 10 + digit
+        n = n // 10
+    return reversed_num
+
+num = int(input("enter a number: "))
+print("reversed number:", reverse_number(num))

@@ -1,6 +1,6 @@
-password = input("enter a password")
-if len(password) >= 6:
-    print("strong")
+string = input("enter a string: ")
+string_lower = string.lower()
+if string_lower == string_lower[::-1]:
+    print("palindrome")
 else:
-    print("weak")
-    
+    print("not palindrome")

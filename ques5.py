@@ -1,2 +1,8 @@
-my_string = input("enter a string;")
-print("every second character:", my_string[: :2])
+num = float(input("enter a number: "))
+if num > 0:
+    print("the number is positive.")
+elif num < 0:
+    print("the number is negative.")
+else:
+    print("the number is zero.")
+    

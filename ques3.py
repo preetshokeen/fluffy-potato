@@ -1,2 +1,7 @@
-my_string = input("enter a string:")
-print("first three character:", my_string[0:3])
+a = int(input("enter first number: "))
+b = int(input("enter second number:"))
+print("before swapping: a =", a, " b =", b)
+temp = a
+a = b 
+b = temp
+print("after swapping: a =", a, " b =", b)

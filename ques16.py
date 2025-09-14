@@ -1,8 +1,8 @@
-marks = float(input("enter marks (0-100): "))
-if 0 <= marks <= 100:
-if marks >= 33:
-    print("pass")
-else:
-    print("fail")
-else:
-    print("invalid marks entered. please enter marks between 0 and 100.")
+def sum_using_loop(n):
+    total = 0
+    for i in range(1, n+ 1):
+        total += i
+    return total
+n = int(input("enter a number: "))
+print("sum using loop:", sum_using_loop(n))
+        
